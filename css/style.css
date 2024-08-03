@@ -10,7 +10,6 @@
     --Montserrat: "Montserrat";
 }
 
-
 /* GLOBAL STYLES */
 
 * {
@@ -34,6 +33,43 @@ a {
     padding-left: 15px;
     padding-right: 15px;
     margin: auto;
+}
+/* BTN */
+.btn {
+    padding: 17px 48px;
+    display: block;
+    background-color: var(--orange);
+    width: max-content;
+    color: #000;
+    font-family: var(--Roboto);
+    font-size: 14px;
+    line-height: 12px;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+
+.btn:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.btn:active {
+    opacity: 0.8;
+}
+
+
+/* HEADLINE */
+
+.title {
+    color: var(--orange);
+    font-family: var(--Comfortaa);
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--orange);
+    width: max-content;
 }
 
 
