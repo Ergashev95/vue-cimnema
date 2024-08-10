@@ -507,3 +507,29 @@ body {
     line-height: 26px;
 }
 /* SERIES GRID */
+
+
+/* SITE-FOOTER */
+.site-footer {
+    background: linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.app {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.footer-desc {
+    color: var(--white);
+    font-family: var(--Comfortaa);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+}
+/* SITE-FOOTER */
